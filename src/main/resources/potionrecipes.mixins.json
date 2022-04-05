@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.emafire003.dev.potionrecipes",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "BrewingRecipeRegister"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
