@@ -11,12 +11,12 @@ public interface BrewingRecipeRegister {
     /**
      * This method registers a new potion recipe.
      *
-     * @param input The potion you want to start from, usually Potions.WATER
+     * @param input The potion you want to start from, usually Potions.AWKWARD or your custom potion (which is going to be YourPotions.POTION)
      * @param item The ingredient you need for your potion
      * @param output The potion you want to have as a result of the crafting
      * */
     @Invoker("registerPotionRecipe")
-    public static void registerPotionRecipe(Potion input, Item item, Potion output) {
+    static void registerPotionRecipe(Potion input, Item item, Potion output) {
         throw new AssertionError();
     }
 }
